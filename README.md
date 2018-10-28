@@ -8,3 +8,5 @@ The article contains this image which has become widely discussed:
 
 This package attempts to make this type of graphic easily accessable to R users. Using the `hbrplot` package and it's one command, also called `hbrplot`, you can create 2x2 HBR images as easily as:
 
+![alt text](https://https://cerebralmastication.github.io/hbrplot.png)
+
