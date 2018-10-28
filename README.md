@@ -7,7 +7,7 @@ The article contains this image which has become widely discussed:
 <a href="url"><img src="https://cerebralmastication.github.io/hbr_2x2.png" align="center" width="500"></a>
 
 
-This package attempts to make this type of graphic easily accessable to R users. Using the `hbrplot` package and it's one command, also called `hbrplot`, you can create 2x2 HBR images with `hbrplot`. First, install the package in R using `devtools`:
+This package attempts to make this type of graphic easily accessible to R users. Using the `hbrplot` package and it's one command, also called `hbrplot`, you can create 2x2 HBR images with `hbrplot`. First, install the package in R using `devtools`:
 
 ```{r}
 devtools::install_github("CerebralMastication/hbrplot")
@@ -50,5 +50,8 @@ Yeah, that's sort of the point of the parody. Currently you can't control their 
 Nope, Chris Littlewood makes some really good points in his article. One of the best points is thinking about difficulty and value at the same time. The second is thinking about the "marginal" effort as well as value. 
 
 ### Then why a random point parody?
-What really deserves mocking is how much of the business literature takes qualitative ideas and gives them a quantitative facad so that the ideas appear more quantatative than they actually are. So this routine mocks that by not allowing you to place the points in any quadrant, but rather by placing the points randomly. 
+What really deserves mocking is how much of the business literature takes qualitative ideas and gives them a quantitative facade so that the ideas appear more quantitative than they actually are. So this routine mocks that by not allowing you to place the points in any quadrant, but rather by placing the points randomly. 
+
+### Do you accept pull requests? 
+Well, yeah. Especially if you fix the hack involved in the X and Y axis labels. Because those are fugly. 
 
