@@ -4,7 +4,7 @@ Chris Littlewood
 
 The article contains this image which has become widely discussed:
 
-<a href="url"><img src="https://cerebralmastication.github.io/hbr_2x2.png" align="center" height="100"></a>
+<a href="url"><img src="https://cerebralmastication.github.io/hbr_2x2.png" align="center" width="500"></a>
 
 
 This package attempts to make this type of graphic easily accessable to R users. Using the `hbrplot` package and it's one command, also called `hbrplot`, you can create 2x2 HBR images with `hbrplot`. First, install the package in R using `devtools`:
@@ -39,6 +39,6 @@ hbrplot(
 
 Then bask in the joy of a glorious plot:
 
-<a href="url"><img src="https://cerebralmastication.github.io/hbrplot.png" align="center" height="100"></a>
+<a href="url"><img src="https://cerebralmastication.github.io/hbrplot.png" align="center" width="500"></a>
 
 
