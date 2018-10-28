@@ -1,10 +1,21 @@
 
 
-
+#' Produce a glorious HBR style 2x2 plot
+#'
+#' @param items A vector of items you want plotted. Typically a string vector.
+#' @param quadrants A vector of four quandrant names. You can give more than four, but anything after the fourth one is just ignored. Because, seriously.
+#' @param x_labels A vector of length two which will be coerced into the x axis label.
+#' @param y_labels A vector of length two which will be coerced into the y axis label.
+#' @return A ggplot2 figure that is in the style of a 2x2 plot.
+#' @examples
+#' hbrplot(items=c('me','you','Dog Named Boo','truck driver'),
+#'         quadrants=c('love','pet','feed','neuter'),
+#'         x_labels=c('fast','slow'),
+#'         y_labels=c('sadly','happily'))
 hbrplot <- function(items = LETTERS[1:15],
                     quadrants = c('one', 'two', 'three', 'four'),
-                    x_labels = c(),
-                    y_labels = c()) {
+                    x_labels = c(''),
+                    y_labels = c('')) {
 
   x_pad <- max(45-nchar(paste(x_labels, collapse = '')), 0)
   x_text <- paste(x_labels, collapse = paste(rep(' ',x_pad), collapse=''))
@@ -13,8 +24,8 @@ hbrplot <- function(items = LETTERS[1:15],
   y_text <- paste(y_labels, collapse = paste(rep(' ',y_pad), collapse=''))
 
 
-  x <- runif(length(items),-1, 1)
-  y <- runif(length(items),-1, 1)
+  x <- stats::runif(length(items),-1, 1)
+  y <- stats::runif(length(items),-1, 1)
   df <- data.frame(items, x, y)
 
   g <- ggplot2::ggplot(data = df) +
