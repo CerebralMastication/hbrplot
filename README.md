@@ -41,4 +41,14 @@ Then bask in the joy of a glorious plot:
 
 <a href="url"><img src="https://cerebralmastication.github.io/hbrplot.png" align="center" width="500"></a>
 
+## FAQ
+
+### The points seem randomly placed? How do I control their location?
+Yeah, that's sort of the point of the parody. Currently you can't control their location. 
+
+### Was the original article "wrong" for some definition of "wrong"? 
+Nope, Chris Littlewood makes some really good points in his article. One of the best points is thinking about difficulty and value at the same time. The second is thinking about the "marginal" effort as well as value. 
+
+### Then why a random point parody?
+What really deserves mocking is how much of the business literature takes qualitative ideas and gives them a quantitative facad so that the ideas appear more quantatative than they actually are. So this routine mocks that by not allowing you to place the points in any quadrant, but rather by placing the points randomly. 
 
