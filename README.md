@@ -4,9 +4,41 @@ Chris Littlewood
 
 The article contains this image which has become widely discussed:
 
-![alt text](https://cerebralmastication.github.io/hbr_2x2.png)
+<a href="url"><img src="https://cerebralmastication.github.io/hbr_2x2.png" align="center" height="100"></a>
 
-This package attempts to make this type of graphic easily accessable to R users. Using the `hbrplot` package and it's one command, also called `hbrplot`, you can create 2x2 HBR images as easily as:
 
-![alt text](https://cerebralmastication.github.io/hbrplot.png)
+This package attempts to make this type of graphic easily accessable to R users. Using the `hbrplot` package and it's one command, also called `hbrplot`, you can create 2x2 HBR images with `hbrplot`. First, install the package in R using `devtools`:
+
+```{r}
+devtools::install_github("CerebralMastication/hbrplot")
+```
+
+Then make up some junk:
+
+```{r}
+library('hbrplot')
+
+hbrplot(
+  items = c(
+    'me',
+    'you',
+    'dog named Boo',
+    'Kris Kristofferson',
+    'Janis Joplin',
+    'JD Long',
+    'Random Trucker',
+    'Patterson Hood',
+    'Mike Cooley'
+  ),
+  quadrants = c('love', 'pet', 'feed', 'live off land'),
+  x_labels = c('fast', 'slow'),
+  y_labels = c('sadly', 'happily')
+)
+
+```
+
+Then bask in the joy of a glorious plot:
+
+<a href="url"><img src="https://cerebralmastication.github.io/hbrplot.png" align="center" height="100"></a>
+
 
