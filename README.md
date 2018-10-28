@@ -4,9 +4,9 @@ Chris Littlewood
 
 The article contains this image which has become widely discussed:
 
-![alt text](https://https://cerebralmastication.github.io/hbr_2x2.png)
+![alt text](https://cerebralmastication.github.io/hbr_2x2.png)
 
 This package attempts to make this type of graphic easily accessable to R users. Using the `hbrplot` package and it's one command, also called `hbrplot`, you can create 2x2 HBR images as easily as:
 
-![alt text](https://https://cerebralmastication.github.io/hbrplot.png)
+![alt text](https://cerebralmastication.github.io/hbrplot.png)
 
