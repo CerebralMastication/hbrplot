@@ -53,5 +53,4 @@ Nope, Chris Littlewood makes some really good points in his article. One of the 
 What really deserves mocking is how much of the business literature takes qualitative ideas and gives them a quantitative facade so that the ideas appear more quantitative than they actually are. So this routine mocks that by not allowing you to place the points in any quadrant, but rather by placing the points randomly. 
 
 ### Do you accept pull requests? 
-Well, yeah. Especially if you fix the hack involved in the X and Y axis labels. Because those are fugly. 
-
+You bet! I have already accepted a pull request to [fix my junky labels](https://github.com/CerebralMastication/hbrplot/commit/9e2dddeb8e5c0dc49636512d8afb685165fa8e83)! 
