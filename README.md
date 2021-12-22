@@ -1,5 +1,5 @@
 # hbrplot
-Inspired by the HBR article ["Prioritize Which Data Skills Your Company Needs with This 2×2 Matrix"](https://hbr.org/2018/10/which-data-skills-do-you-actually-need-this-2x2-matrix-will-tell-you_) by
+Inspired by the HBR article ["Prioritize Which Data Skills Your Company Needs with This 2×2 Matrix"](https://hbr.org/2018/10/prioritize-which-data-skills-your-company-needs-with-this-2x2-matrix) by
 Chris Littlewood
 
 The article contains this image which has become widely discussed:
